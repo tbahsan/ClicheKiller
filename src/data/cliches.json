@@ -1,0 +1,1787 @@
+[
+  {
+    "id": "at-the-end-of-the-day",
+    "phrase": "at the end of the day",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Overused phrase that delays getting to the real conclusion or point.",
+    "alternatives": [
+      "ultimately",
+      "finally",
+      "in the end",
+      "in summary"
+    ]
+  },
+  {
+    "id": "bite-the-bullet",
+    "phrase": "bite the bullet",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Worn battlefield metaphor for enduring an unpleasant necessity.",
+    "alternatives": [
+      "face it",
+      "accept the cost",
+      "brace for it",
+      "decide now"
+    ]
+  },
+  {
+    "id": "tip-of-the-iceberg",
+    "phrase": "tip of the iceberg",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Tired nautical metaphor describing a small visible fraction of a larger problem.",
+    "alternatives": [
+      "a small fraction",
+      "the beginning of the problem",
+      "an initial glimpse"
+    ]
+  },
+  {
+    "id": "thinking-outside-the-box",
+    "phrase": "thinking outside the box",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Ironically cliché way to describe originality or unconventional thinking.",
+    "alternatives": [
+      "creatively",
+      "unconventionally",
+      "with fresh eyes",
+      "boldly"
+    ]
+  },
+  {
+    "id": "burn-the-midnight-oil",
+    "phrase": "burn the midnight oil",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Archaic 17th-century metaphor for working late into the night.",
+    "alternatives": [
+      "worked late",
+      "stayed up through the night",
+      "worked overtime"
+    ]
+  },
+  {
+    "id": "elephant-in-the-room",
+    "phrase": "elephant in the room",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Overused metaphor for an obvious truth everyone is ignoring.",
+    "alternatives": [
+      "unspoken tension",
+      "the avoided topic",
+      "the obvious conflict"
+    ]
+  },
+  {
+    "id": "throw-in-the-towel",
+    "phrase": "throw in the towel",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Boxing idiom meaning surrender or give up.",
+    "alternatives": [
+      "give up",
+      "surrender",
+      "quit",
+      "concede"
+    ]
+  },
+  {
+    "id": "diamond-in-the-rough",
+    "phrase": "diamond in the rough",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Trite phrase for unrefined talent.",
+    "alternatives": [
+      "raw talent",
+      "promising prospect",
+      "unpolished potential"
+    ]
+  },
+  {
+    "id": "hit-the-nail-on-the-head",
+    "phrase": "hit the nail on the head",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Exhausted carpentry idiom for stating something accurately.",
+    "alternatives": [
+      "precisely",
+      "exactly right",
+      "spoke accurately",
+      "pinpointed"
+    ]
+  },
+  {
+    "id": "bark-up-the-wrong-tree",
+    "phrase": "barking up the wrong tree",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Hunting idiom describing a mistaken pursuit or erroneous accusation.",
+    "alternatives": [
+      "misguided",
+      "pursuing the wrong cause",
+      "mistaken"
+    ]
+  },
+  {
+    "id": "bark-up-the-wrong-tree-base",
+    "phrase": "bark up the wrong tree",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Hunting idiom describing a mistaken pursuit.",
+    "alternatives": [
+      "misguided",
+      "looking in the wrong place",
+      "mistaken"
+    ]
+  },
+  {
+    "id": "water-under-the-bridge",
+    "phrase": "water under the bridge",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Cliché for past events that cannot be changed.",
+    "alternatives": [
+      "past history",
+      "behind us",
+      "in the past",
+      "forgiven"
+    ]
+  },
+  {
+    "id": "food-for-thought",
+    "phrase": "food for thought",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Generic phrase for something worth contemplating.",
+    "alternatives": [
+      "worth considering",
+      "provocative",
+      "a question to ponder"
+    ]
+  },
+  {
+    "id": "add-insult-to-injury",
+    "phrase": "add insult to injury",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Ancient fable cliché for making a bad situation worse.",
+    "alternatives": [
+      "worsened the situation",
+      "compounded the harm",
+      "further humiliated"
+    ]
+  },
+  {
+    "id": "back-to-square-one",
+    "phrase": "back to square one",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Board-game or radio idiom for restarting after failure.",
+    "alternatives": [
+      "starting over",
+      "back to the beginning",
+      "resetting"
+    ]
+  },
+  {
+    "id": "beat-around-the-bush",
+    "phrase": "beat around the bush",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Hunting metaphor for speaking evasively.",
+    "alternatives": [
+      "equivocate",
+      "hesitate",
+      "speak evasively",
+      "delay"
+    ]
+  },
+  {
+    "id": "blessing-in-disguise",
+    "phrase": "blessing in disguise",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Trite silver-lining idiom.",
+    "alternatives": [
+      "unexpected benefit",
+      "hidden stroke of luck",
+      "fortunate turn"
+    ]
+  },
+  {
+    "id": "break-the-ice",
+    "phrase": "break the ice",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Nautical navigation idiom for easing social tension.",
+    "alternatives": [
+      "open the conversation",
+      "ease the silence",
+      "introduce themselves"
+    ]
+  },
+  {
+    "id": "burn-bridges",
+    "phrase": "burn bridges",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Military cliché for cutting off past ties irreversibly.",
+    "alternatives": [
+      "cut ties",
+      "ruin relations",
+      "close the door"
+    ]
+  },
+  {
+    "id": "calm-before-the-storm",
+    "phrase": "calm before the storm",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Exhausted meteorological metaphor for deceptive quiet.",
+    "alternatives": [
+      "uneasy lull",
+      "brief quiet",
+      "tense pause"
+    ]
+  },
+  {
+    "id": "cost-an-arm-and-a-leg",
+    "phrase": "cost an arm and a leg",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Exaggerated idiom for exorbitant expense.",
+    "alternatives": [
+      "was exorbitant",
+      "was remarkably expensive",
+      "drained their budget"
+    ]
+  },
+  {
+    "id": "cry-over-spilled-milk",
+    "phrase": "cry over spilled milk",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Proverbial cliché for useless regret over irreversible mistakes.",
+    "alternatives": [
+      "dwell on the past",
+      "lament what cannot be undone"
+    ]
+  },
+  {
+    "id": "kill-two-birds-with-one-stone",
+    "phrase": "kill two birds with one stone",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Violent and exhausted idiom for dual efficiency.",
+    "alternatives": [
+      "solve both issues",
+      "accomplish two aims",
+      "save time"
+    ]
+  },
+  {
+    "id": "needle-in-a-haystack",
+    "phrase": "needle in a haystack",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Worn-out comparison for something extremely difficult to find.",
+    "alternatives": [
+      "nearly impossible to locate",
+      "elusive detail",
+      "minute search"
+    ]
+  },
+  {
+    "id": "piece-of-cake",
+    "phrase": "piece of cake",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Colloquialism for an effortless task.",
+    "alternatives": [
+      "straightforward",
+      "effortless",
+      "simple"
+    ]
+  },
+  {
+    "id": "raining-cats-and-dogs",
+    "phrase": "raining cats and dogs",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Absurd archaic hyperbole for heavy rain.",
+    "alternatives": [
+      "pouring",
+      "drenching rain",
+      "downpour"
+    ]
+  },
+  {
+    "id": "spill-the-beans",
+    "phrase": "spill the beans",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Ancient voting idiom for disclosing a secret.",
+    "alternatives": [
+      "revealed the secret",
+      "confessed",
+      "disclosed the truth"
+    ]
+  },
+  {
+    "id": "under-the-weather",
+    "phrase": "under the weather",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Nautical euphemism for illness.",
+    "alternatives": [
+      "unwell",
+      "sick",
+      "indisposed",
+      "feverish"
+    ]
+  },
+  {
+    "id": "wild-goose-chase",
+    "phrase": "wild goose chase",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Shakespearean hunt idiom for a futile pursuit.",
+    "alternatives": [
+      "futile search",
+      "pointless errand",
+      "fruitless pursuit"
+    ]
+  },
+  {
+    "id": "crystal-clear",
+    "phrase": "crystal clear",
+    "category": "fiction_trope",
+    "severity": "high",
+    "explanation": "Tired descriptive cliché for transparent or obvious things.",
+    "alternatives": [
+      "clear",
+      "transparent",
+      "lucid",
+      "unambiguous"
+    ]
+  },
+  {
+    "id": "cold-sweat",
+    "phrase": "cold sweat",
+    "category": "fiction_trope",
+    "severity": "high",
+    "explanation": "Overused physiological trope in suspense and horror fiction.",
+    "alternatives": [
+      "clammy dread",
+      "sudden chill",
+      "trembling fever",
+      "beads of perspiration"
+    ]
+  },
+  {
+    "id": "heart-sank",
+    "phrase": "heart sank",
+    "category": "fiction_trope",
+    "severity": "high",
+    "explanation": "Ubiquitous fiction melodrama for sudden disappointment.",
+    "alternatives": [
+      "felt sudden despair",
+      "lost all hope",
+      "gasped in disappointment"
+    ]
+  },
+  {
+    "id": "breath-didn't-know-holding",
+    "phrase": "breath he didn't know he was holding",
+    "category": "fiction_trope",
+    "severity": "high",
+    "explanation": "Infamous creative writing cliché describing relief.",
+    "alternatives": [
+      "sighed in deep relief",
+      "exhaled slowly",
+      "let go of his breath"
+    ]
+  },
+  {
+    "id": "breath-she-didn't-know-holding",
+    "phrase": "breath she didn't know she was holding",
+    "category": "fiction_trope",
+    "severity": "high",
+    "explanation": "Infamous creative writing cliché describing relief.",
+    "alternatives": [
+      "sighed in relief",
+      "exhaled shakily",
+      "released her breath"
+    ]
+  },
+  {
+    "id": "blood-ran-cold",
+    "phrase": "blood ran cold",
+    "category": "fiction_trope",
+    "severity": "high",
+    "explanation": "Gothic trope for shock or terror.",
+    "alternatives": [
+      "felt terror freeze him",
+      "shivered in sudden fear",
+      "paled instantly"
+    ]
+  },
+  {
+    "id": "eyes-wide-with-horror",
+    "phrase": "eyes wide with horror",
+    "category": "fiction_trope",
+    "severity": "medium",
+    "explanation": "Melodramatic face description showing rather than conveying internal terror.",
+    "alternatives": [
+      "stared horrified",
+      "gasped",
+      "paralyzed by the sight"
+    ]
+  },
+  {
+    "id": "sudden-realization",
+    "phrase": "sudden realization",
+    "category": "fiction_trope",
+    "severity": "medium",
+    "explanation": "Telling rather than showing an epiphany.",
+    "alternatives": [
+      "it struck him",
+      "she saw the pattern",
+      "the truth surfaced"
+    ]
+  },
+  {
+    "id": "piercing-blue-eyes",
+    "phrase": "piercing blue eyes",
+    "category": "fiction_trope",
+    "severity": "high",
+    "explanation": "Stock romance and fantasy character trope.",
+    "alternatives": [
+      "sharp gaze",
+      "deep blue eyes",
+      "keen eyes"
+    ]
+  },
+  {
+    "id": "deafening-silence",
+    "phrase": "deafening silence",
+    "category": "fiction_trope",
+    "severity": "high",
+    "explanation": "Oxymoron cliché worn down by endless repetition.",
+    "alternatives": [
+      "heavy silence",
+      "hushed pause",
+      "taut quiet",
+      "oppressive silence"
+    ]
+  },
+  {
+    "id": "dead-silence",
+    "phrase": "dead silence",
+    "category": "fiction_trope",
+    "severity": "medium",
+    "explanation": "Stock thriller description for complete quiet.",
+    "alternatives": [
+      "total silence",
+      "stillness",
+      "hush"
+    ]
+  },
+  {
+    "id": "shudder-down-spine",
+    "phrase": "shudder ran down her spine",
+    "category": "fiction_trope",
+    "severity": "high",
+    "explanation": "Weary horror cliché for physical reaction to fear.",
+    "alternatives": [
+      "she trembled",
+      "a cold chill gripped her",
+      "fear stirred inside her"
+    ]
+  },
+  {
+    "id": "shudder-down-his-spine",
+    "phrase": "shudder ran down his spine",
+    "category": "fiction_trope",
+    "severity": "high",
+    "explanation": "Weary horror cliché for physical reaction to fear.",
+    "alternatives": [
+      "he trembled",
+      "a cold chill gripped him",
+      "fear stirred inside him"
+    ]
+  },
+  {
+    "id": "sigh-of-relief",
+    "phrase": "sigh of relief",
+    "category": "fiction_trope",
+    "severity": "medium",
+    "explanation": "Stock fiction marker for easing tension.",
+    "alternatives": [
+      "sighed softly",
+      "exhaled the tension",
+      "relaxed"
+    ]
+  },
+  {
+    "id": "time-stood-still",
+    "phrase": "time stood still",
+    "category": "fiction_trope",
+    "severity": "high",
+    "explanation": "Trite phrase for intense dramatic focus.",
+    "alternatives": [
+      "seconds dragged like hours",
+      "the room froze",
+      "everything stopped"
+    ]
+  },
+  {
+    "id": "darkness-swallowed",
+    "phrase": "darkness swallowed",
+    "category": "fiction_trope",
+    "severity": "medium",
+    "explanation": "Personified darkness trope.",
+    "alternatives": [
+      "night engulfed",
+      "plunged into blackness",
+      "lost to shadow"
+    ]
+  },
+  {
+    "id": "jaw-dropped",
+    "phrase": "jaw dropped",
+    "category": "fiction_trope",
+    "severity": "medium",
+    "explanation": "Cartoonish cliché for astonishment.",
+    "alternatives": [
+      "stared in disbelief",
+      "gasped",
+      "stood speechless"
+    ]
+  },
+  {
+    "id": "stomach-churned",
+    "phrase": "stomach churned",
+    "category": "fiction_trope",
+    "severity": "medium",
+    "explanation": "Stock physical reaction trope for disgust or anxiety.",
+    "alternatives": [
+      "felt sickened",
+      "nausea rose",
+      "recoiled in disgust"
+    ]
+  },
+  {
+    "id": "low-hanging-fruit",
+    "phrase": "low-hanging fruit",
+    "category": "business_jargon",
+    "severity": "high",
+    "explanation": "Corporate cliché for easy initial tasks.",
+    "alternatives": [
+      "immediate wins",
+      "simple tasks",
+      "accessible opportunities"
+    ]
+  },
+  {
+    "id": "move-the-needle",
+    "phrase": "move the needle",
+    "category": "business_jargon",
+    "severity": "high",
+    "explanation": "Vague buzzword for making measurable progress.",
+    "alternatives": [
+      "make a noticeable impact",
+      "yield results",
+      "alter outcomes"
+    ]
+  },
+  {
+    "id": "circle-back",
+    "phrase": "circle back",
+    "category": "business_jargon",
+    "severity": "high",
+    "explanation": "Euphemistic corporate filler for discussing something later.",
+    "alternatives": [
+      "revisit this",
+      "discuss this later",
+      "return to this topic"
+    ]
+  },
+  {
+    "id": "touch-base",
+    "phrase": "touch base",
+    "category": "business_jargon",
+    "severity": "high",
+    "explanation": "Baseball idiom turned meaningless corporate small-talk.",
+    "alternatives": [
+      "talk",
+      "meet briefly",
+      "check in",
+      "email you"
+    ]
+  },
+  {
+    "id": "push-the-envelope",
+    "phrase": "push the envelope",
+    "category": "business_jargon",
+    "severity": "medium",
+    "explanation": "Aerospace jargon degraded into an overused workplace buzzword.",
+    "alternatives": [
+      "innovate",
+      "test limits",
+      "take risks",
+      "challenge standards"
+    ]
+  },
+  {
+    "id": "deep-dive",
+    "phrase": "deep dive",
+    "category": "business_jargon",
+    "severity": "medium",
+    "explanation": "Overused phrase for thorough examination.",
+    "alternatives": [
+      "detailed analysis",
+      "careful investigation",
+      "thorough study"
+    ]
+  },
+  {
+    "id": "game-changer",
+    "phrase": "game changer",
+    "category": "business_jargon",
+    "severity": "high",
+    "explanation": "Hype word that rarely lives up to its claim.",
+    "alternatives": [
+      "breakthrough",
+      "significant development",
+      "transformative advance"
+    ]
+  },
+  {
+    "id": "win-win-situation",
+    "phrase": "win-win situation",
+    "category": "business_jargon",
+    "severity": "high",
+    "explanation": "Tired negotiation cliché for mutually beneficial outcomes.",
+    "alternatives": [
+      "mutually beneficial",
+      "helpful to both sides",
+      "shared success"
+    ]
+  },
+  {
+    "id": "paradigm-shift",
+    "phrase": "paradigm shift",
+    "category": "business_jargon",
+    "severity": "high",
+    "explanation": "Pretentious buzzword for a change in approach.",
+    "alternatives": [
+      "fundamental change",
+      "rethinking",
+      "new approach"
+    ]
+  },
+  {
+    "id": "give-110-percent",
+    "phrase": "give 110 percent",
+    "category": "business_jargon",
+    "severity": "high",
+    "explanation": "Mathematically impossible sports/business hyperbole.",
+    "alternatives": [
+      "give maximum effort",
+      "work diligently",
+      "commit fully"
+    ]
+  },
+  {
+    "id": "boots-on-the-ground",
+    "phrase": "boots on the ground",
+    "category": "business_jargon",
+    "severity": "medium",
+    "explanation": "Military jargon applied awkwardly to civilian workers.",
+    "alternatives": [
+      "local staff",
+      "field representatives",
+      "people on site"
+    ]
+  },
+  {
+    "id": "peel-back-the-onion",
+    "phrase": "peel back the onion",
+    "category": "business_jargon",
+    "severity": "high",
+    "explanation": "Unpleasant culinary metaphor for layered analysis.",
+    "alternatives": [
+      "examine the layers",
+      "analyze deeply",
+      "uncover root causes"
+    ]
+  },
+  {
+    "id": "bring-to-the-table",
+    "phrase": "bring to the table",
+    "category": "business_jargon",
+    "severity": "medium",
+    "explanation": "Generic corporate phrase for providing skills or value.",
+    "alternatives": [
+      "contribute",
+      "offer",
+      "provide"
+    ]
+  },
+  {
+    "id": "reinvent-the-wheel",
+    "phrase": "reinvent the wheel",
+    "category": "business_jargon",
+    "severity": "medium",
+    "explanation": "Overused phrase for redundant effort.",
+    "alternatives": [
+      "duplicate existing work",
+      "start from scratch needlessly"
+    ]
+  },
+  {
+    "id": "core-competency",
+    "phrase": "core competency",
+    "category": "business_jargon",
+    "severity": "medium",
+    "explanation": "Consultant speak for primary strengths.",
+    "alternatives": [
+      "primary strength",
+      "specialty",
+      "key skill"
+    ]
+  },
+  {
+    "id": "value-add",
+    "phrase": "value-add",
+    "category": "business_jargon",
+    "severity": "high",
+    "explanation": "Jargon noun phrase substituting for actual utility.",
+    "alternatives": [
+      "benefit",
+      "advantage",
+      "improvement",
+      "utility"
+    ]
+  },
+  {
+    "id": "bandwidth",
+    "phrase": "bandwidth",
+    "category": "business_jargon",
+    "severity": "medium",
+    "explanation": "Telecommunications term misused to describe personal work capacity.",
+    "alternatives": [
+      "time",
+      "capacity",
+      "availability"
+    ]
+  },
+  {
+    "id": "in-this-day-and-age",
+    "phrase": "in this day and age",
+    "category": "filler",
+    "severity": "high",
+    "explanation": "Verbose filler phrase adding no substance beyond 'today'.",
+    "alternatives": [
+      "today",
+      "nowadays",
+      "currently"
+    ]
+  },
+  {
+    "id": "for-all-intents-and-purposes",
+    "phrase": "for all intents and purposes",
+    "category": "filler",
+    "severity": "high",
+    "explanation": "Bloated legalistic filler phrase.",
+    "alternatives": [
+      "essentially",
+      "practically",
+      "effectively"
+    ]
+  },
+  {
+    "id": "needless-to-say",
+    "phrase": "needless to say",
+    "category": "filler",
+    "severity": "high",
+    "explanation": "If it is truly needless to say, delete it entirely.",
+    "alternatives": [
+      "obviously",
+      "clearly",
+      "[delete completely]"
+    ]
+  },
+  {
+    "id": "it-goes-without-saying",
+    "phrase": "it goes without saying",
+    "category": "filler",
+    "severity": "high",
+    "explanation": "Redundant rhetorical throat-clearing.",
+    "alternatives": [
+      "clearly",
+      "obviously",
+      "[delete completely]"
+    ]
+  },
+  {
+    "id": "at-this-moment-in-time",
+    "phrase": "at this moment in time",
+    "category": "filler",
+    "severity": "high",
+    "explanation": "Pompous bureaucratic expansion of the single word 'now'.",
+    "alternatives": [
+      "now",
+      "currently",
+      "at present"
+    ]
+  },
+  {
+    "id": "when-all-is-said-and-done",
+    "phrase": "when all is said and done",
+    "category": "filler",
+    "severity": "high",
+    "explanation": "Rambling concluding cliché.",
+    "alternatives": [
+      "ultimately",
+      "finally",
+      "in conclusion"
+    ]
+  },
+  {
+    "id": "in-the-final-analysis",
+    "phrase": "in the final analysis",
+    "category": "filler",
+    "severity": "high",
+    "explanation": "Pretentious essay padding.",
+    "alternatives": [
+      "finally",
+      "ultimately",
+      "in conclusion"
+    ]
+  },
+  {
+    "id": "each-and-every",
+    "phrase": "each and every",
+    "category": "filler",
+    "severity": "high",
+    "explanation": "Tautological doubling of two words that mean the exact same thing.",
+    "alternatives": [
+      "every",
+      "each",
+      "all"
+    ]
+  },
+  {
+    "id": "last-but-not-least",
+    "phrase": "last but not least",
+    "category": "filler",
+    "severity": "high",
+    "explanation": "Overdone transition in speeches and lists.",
+    "alternatives": [
+      "finally",
+      "lastly"
+    ]
+  },
+  {
+    "id": "in-the-nick-of-time",
+    "phrase": "in the nick of time",
+    "category": "filler",
+    "severity": "medium",
+    "explanation": "Trite melodramatic phrase for just barely on time.",
+    "alternatives": [
+      "just in time",
+      "at the final moment",
+      "barely"
+    ]
+  },
+  {
+    "id": "safe-and-sound",
+    "phrase": "safe and sound",
+    "category": "filler",
+    "severity": "medium",
+    "explanation": "Ancient rhyming pair idiom.",
+    "alternatives": [
+      "unharmed",
+      "safe",
+      "secure"
+    ]
+  },
+  {
+    "id": "easier-said-than-done",
+    "phrase": "easier said than done",
+    "category": "filler",
+    "severity": "medium",
+    "explanation": "Conversational platitude adding zero actionable advice.",
+    "alternatives": [
+      "challenging",
+      "difficult to implement",
+      "harder in practice"
+    ]
+  },
+  {
+    "id": "only-time-will-tell",
+    "phrase": "only time will tell",
+    "category": "filler",
+    "severity": "high",
+    "explanation": "Lazy ending to articles and essays.",
+    "alternatives": [
+      "the outcome remains uncertain",
+      "we will see"
+    ]
+  },
+  {
+    "id": "truth-be-told",
+    "phrase": "truth be told",
+    "category": "filler",
+    "severity": "medium",
+    "explanation": "Unnecessary colloquial admission.",
+    "alternatives": [
+      "frankly",
+      "honestly",
+      "in truth"
+    ]
+  },
+  {
+    "id": "all-in-all",
+    "phrase": "all in all",
+    "category": "filler",
+    "severity": "medium",
+    "explanation": "Generic summary filler.",
+    "alternatives": [
+      "overall",
+      "in summary",
+      "on balance"
+    ]
+  },
+  {
+    "id": "without-further-ado",
+    "phrase": "without further ado",
+    "category": "filler",
+    "severity": "high",
+    "explanation": "Irony of announcing you will stop delaying, while delaying.",
+    "alternatives": [
+      "now",
+      "[delete completely]"
+    ]
+  },
+  {
+    "id": "down-to-earth",
+    "phrase": "down to earth",
+    "category": "filler",
+    "severity": "medium",
+    "explanation": "Vague conversational praise.",
+    "alternatives": [
+      "pragmatic",
+      "unpretentious",
+      "practical",
+      "humble"
+    ]
+  },
+  {
+    "id": "read-between-the-lines",
+    "phrase": "read between the lines",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Metaphor for discerning unspoken meaning.",
+    "alternatives": [
+      "infer",
+      "discern the subtext",
+      "detect the underlying message"
+    ]
+  },
+  {
+    "id": "take-with-a-grain-of-salt",
+    "phrase": "take with a grain of salt",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Ancient antidote idiom for skepticism.",
+    "alternatives": [
+      "treat skeptically",
+      "maintain doubt",
+      "view critically"
+    ]
+  },
+  {
+    "id": "open-a-can-of-worms",
+    "phrase": "open a can of worms",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Fishing metaphor for uncovering complicated troubles.",
+    "alternatives": [
+      "unleash complications",
+      "invite unforeseen problems",
+      "provoke chaos"
+    ]
+  },
+  {
+    "id": "play-with-fire",
+    "phrase": "play with fire",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Trite warning for taking reckless risks.",
+    "alternatives": [
+      "court danger",
+      "take reckless risks",
+      "gamble carelessly"
+    ]
+  },
+  {
+    "id": "burn-candle-both-ends",
+    "phrase": "burn the candle at both ends",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "17th-century metaphor for exhausting oneself.",
+    "alternatives": [
+      "overwork",
+      "exhaust their energy",
+      "push beyond endurance"
+    ]
+  },
+  {
+    "id": "call-it-a-day",
+    "phrase": "call it a day",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Idiom for stopping work for the evening.",
+    "alternatives": [
+      "finish for the night",
+      "stop work",
+      "conclude for today"
+    ]
+  },
+  {
+    "id": "cold-shoulder",
+    "phrase": "cold shoulder",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Culinary idiom for deliberate unfriendliness.",
+    "alternatives": [
+      "ignored them",
+      "snubbed",
+      "shunned"
+    ]
+  },
+  {
+    "id": "cut-corners",
+    "phrase": "cut corners",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Driving metaphor for sacrificing quality to save cost.",
+    "alternatives": [
+      "sacrifice quality",
+      "act hastily",
+      "compromise standards"
+    ]
+  },
+  {
+    "id": "devils-advocate",
+    "phrase": "devil's advocate",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Papal canonization term overused in debates.",
+    "alternatives": [
+      "counter-argument",
+      "contrarian view",
+      "challenger"
+    ]
+  },
+  {
+    "id": "draw-a-blank",
+    "phrase": "draw a blank",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Lottery idiom for failing to recall something.",
+    "alternatives": [
+      "could not recall",
+      "forgot",
+      "failed to remember"
+    ]
+  },
+  {
+    "id": "head-over-heels",
+    "phrase": "head over heels",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Acrobatic idiom for falling deeply in love.",
+    "alternatives": [
+      "deeply infatuated",
+      "smitten",
+      "captivated"
+    ]
+  },
+  {
+    "id": "jump-on-bandwagon",
+    "phrase": "jump on the bandwagon",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Political parade idiom for following trends.",
+    "alternatives": [
+      "join the trend",
+      "follow the crowd",
+      "adopt popular opinion"
+    ]
+  },
+  {
+    "id": "keep-ear-to-ground",
+    "phrase": "keep an ear to the ground",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Tracker metaphor for staying informed.",
+    "alternatives": [
+      "stay informed",
+      "listen closely",
+      "monitor developments"
+    ]
+  },
+  {
+    "id": "on-cloud-nine",
+    "phrase": "on cloud nine",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Meteorological idiom for euphoric joy.",
+    "alternatives": [
+      "elated",
+      "overjoyed",
+      "thrilled"
+    ]
+  },
+  {
+    "id": "see-eye-to-eye",
+    "phrase": "see eye to eye",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Biblical phrase for agreement.",
+    "alternatives": [
+      "agree",
+      "share the same view",
+      "concur"
+    ]
+  },
+  {
+    "id": "throw-under-the-bus",
+    "phrase": "throw under the bus",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Modern political cliché for betraying an ally.",
+    "alternatives": [
+      "betray",
+      "scapegoat",
+      "sacrifice for personal gain"
+    ]
+  },
+  {
+    "id": "storm-in-a-teacup",
+    "phrase": "storm in a teacup",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Exaggerated idiom for making a fuss over trivia.",
+    "alternatives": [
+      "petty squabble",
+      "minor dispute",
+      "fuss over nothing"
+    ]
+  },
+  {
+    "id": "skeleton-in-closet",
+    "phrase": "skeleton in the closet",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Gothic metaphor for a hidden scandalous secret.",
+    "alternatives": [
+      "hidden scandal",
+      "buried secret",
+      "past shame"
+    ]
+  },
+  {
+    "id": "skating-on-thin-ice",
+    "phrase": "skating on thin ice",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Winter sports metaphor for taking grave risks.",
+    "alternatives": [
+      "taking dangerous risks",
+      "in a precarious position"
+    ]
+  },
+  {
+    "id": "smooth-sailing",
+    "phrase": "smooth sailing",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Nautical cliché for unobstructed progress.",
+    "alternatives": [
+      "easy progress",
+      "unimpeded work",
+      "flawless execution"
+    ]
+  },
+  {
+    "id": "rule-of-thumb",
+    "phrase": "rule of thumb",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Vague approximation idiom.",
+    "alternatives": [
+      "general principle",
+      "guideline",
+      "heuristic"
+    ]
+  },
+  {
+    "id": "red-tape",
+    "phrase": "red tape",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Civil war document binding idiom for bureaucracy.",
+    "alternatives": [
+      "bureaucracy",
+      "procedural delay",
+      "administrative hurdles"
+    ]
+  },
+  {
+    "id": "pull-yourself-together",
+    "phrase": "pull yourself together",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Conversational dismissal of distress.",
+    "alternatives": [
+      "regain composure",
+      "calm down",
+      "focus"
+    ]
+  },
+  {
+    "id": "dark-and-stormy-night",
+    "phrase": "dark and stormy night",
+    "category": "fiction_trope",
+    "severity": "high",
+    "explanation": "The quintessential gothic opening cliché.",
+    "alternatives": [
+      "a torrential gale",
+      "rain lashed the glass",
+      "thunder shook the room"
+    ]
+  },
+  {
+    "id": "heart-pounded-in-chest",
+    "phrase": "heart pounded in his chest",
+    "category": "fiction_trope",
+    "severity": "high",
+    "explanation": "Stock thriller heartbeat trope.",
+    "alternatives": [
+      "his pulse quickened",
+      "felt his blood race",
+      "breathed hard"
+    ]
+  },
+  {
+    "id": "heart-pounded-her-chest",
+    "phrase": "heart pounded in her chest",
+    "category": "fiction_trope",
+    "severity": "high",
+    "explanation": "Stock thriller heartbeat trope.",
+    "alternatives": [
+      "her pulse quickened",
+      "felt her blood race",
+      "breathed hard"
+    ]
+  },
+  {
+    "id": "white-as-a-sheet",
+    "phrase": "white as a sheet",
+    "category": "fiction_trope",
+    "severity": "high",
+    "explanation": "Ancient comparison for sudden pallor.",
+    "alternatives": [
+      "paled instantly",
+      "lost all color",
+      "turned ashen"
+    ]
+  },
+  {
+    "id": "blood-curdling",
+    "phrase": "blood-curdling",
+    "category": "fiction_trope",
+    "severity": "medium",
+    "explanation": "Melodramatic scream adjective.",
+    "alternatives": [
+      "shattering",
+      "piercing",
+      "terrible",
+      "gut-wrenching"
+    ]
+  },
+  {
+    "id": "silence-hung-in-air",
+    "phrase": "silence hung in the air",
+    "category": "fiction_trope",
+    "severity": "high",
+    "explanation": "Weighty atmospheric fiction trope.",
+    "alternatives": [
+      "no one spoke",
+      "the room remained quiet",
+      "a tense pause fell"
+    ]
+  },
+  {
+    "id": "gasped-for-air",
+    "phrase": "gasped for air",
+    "category": "fiction_trope",
+    "severity": "medium",
+    "explanation": "Overdramatic respiration marker.",
+    "alternatives": [
+      "struggled to breathe",
+      "coughed violently",
+      "fought for breath"
+    ]
+  },
+  {
+    "id": "sweat-dripped-from-brow",
+    "phrase": "sweat dripped from his brow",
+    "category": "fiction_trope",
+    "severity": "medium",
+    "explanation": "Heavy-handed exertion trope.",
+    "alternatives": [
+      "wiped his forehead",
+      "perspired heavily",
+      "beads of sweat ran down his face"
+    ]
+  },
+  {
+    "id": "narrow-escape",
+    "phrase": "narrow escape",
+    "category": "fiction_trope",
+    "severity": "medium",
+    "explanation": "Formulaic suspense conclusion.",
+    "alternatives": [
+      "barely evaded capture",
+      "escaped by seconds",
+      "survived by a hair"
+    ]
+  },
+  {
+    "id": "piercing-scream",
+    "phrase": "piercing scream",
+    "category": "fiction_trope",
+    "severity": "medium",
+    "explanation": "Standard auditory shock trope.",
+    "alternatives": [
+      "sharp shriek",
+      "cry of terror",
+      "shrill yell"
+    ]
+  },
+  {
+    "id": "sinister-smile",
+    "phrase": "sinister smile",
+    "category": "fiction_trope",
+    "severity": "high",
+    "explanation": "Pulp villain facial description.",
+    "alternatives": [
+      "cunning smirk",
+      "mocking smile",
+      "cruel gaze"
+    ]
+  },
+  {
+    "id": "eyes-narrowed",
+    "phrase": "eyes narrowed",
+    "category": "fiction_trope",
+    "severity": "medium",
+    "explanation": "Universal body-language shortcut for suspicion.",
+    "alternatives": [
+      "looked skeptically",
+      "frowned in doubt",
+      "scrutinized them"
+    ]
+  },
+  {
+    "id": "synergy",
+    "phrase": "synergy",
+    "category": "business_jargon",
+    "severity": "high",
+    "explanation": "Empty 1990s corporate buzzword for combined benefit.",
+    "alternatives": [
+      "collaboration",
+      "combined strength",
+      "cooperation"
+    ]
+  },
+  {
+    "id": "leverage",
+    "phrase": "leverage",
+    "category": "business_jargon",
+    "severity": "medium",
+    "explanation": "Overworked financial noun turned lazy verb.",
+    "alternatives": [
+      "utilize",
+      "harness",
+      "draw upon",
+      "apply"
+    ]
+  },
+  {
+    "id": "action-item",
+    "phrase": "action item",
+    "category": "business_jargon",
+    "severity": "medium",
+    "explanation": "Bureaucratic name for a simple task.",
+    "alternatives": [
+      "task",
+      "next step",
+      "assignment",
+      "duty"
+    ]
+  },
+  {
+    "id": "mission-critical",
+    "phrase": "mission critical",
+    "category": "business_jargon",
+    "severity": "high",
+    "explanation": "Military aerospace phrase inflated for routine tasks.",
+    "alternatives": [
+      "essential",
+      "crucial",
+      "vital",
+      "indispensable"
+    ]
+  },
+  {
+    "id": "take-it-offline",
+    "phrase": "take it offline",
+    "category": "business_jargon",
+    "severity": "high",
+    "explanation": "Corporate evasion for pausing a public meeting debate.",
+    "alternatives": [
+      "discuss in private",
+      "talk afterwards",
+      "meet separately"
+    ]
+  },
+  {
+    "id": "drink-the-kool-aid",
+    "phrase": "drink the kool-aid",
+    "category": "business_jargon",
+    "severity": "high",
+    "explanation": "Tasteless historical cult tragedy phrase used casually for conformity.",
+    "alternatives": [
+      "accept blindly",
+      "buy into the dogma",
+      "conform unquestioningly"
+    ]
+  },
+  {
+    "id": "thought-leader",
+    "phrase": "thought leader",
+    "category": "business_jargon",
+    "severity": "high",
+    "explanation": "Self-congratulatory marketing title.",
+    "alternatives": [
+      "expert",
+      "specialist",
+      "authority",
+      "innovator"
+    ]
+  },
+  {
+    "id": "heavy-lifting",
+    "phrase": "heavy lifting",
+    "category": "business_jargon",
+    "severity": "medium",
+    "explanation": "Physical labor metaphor for hard intellectual work.",
+    "alternatives": [
+      "difficult work",
+      "primary effort",
+      "core engineering"
+    ]
+  },
+  {
+    "id": "moving-forward",
+    "phrase": "moving forward",
+    "category": "business_jargon",
+    "severity": "high",
+    "explanation": "Vague corporate filler signaling the future.",
+    "alternatives": [
+      "from now on",
+      "in future",
+      "next"
+    ]
+  },
+  {
+    "id": "hard-stop",
+    "phrase": "hard stop",
+    "category": "business_jargon",
+    "severity": "medium",
+    "explanation": "Affectation for having another scheduled meeting.",
+    "alternatives": [
+      "must leave at",
+      "have a meeting at"
+    ]
+  },
+  {
+    "id": "first-and-foremost",
+    "phrase": "first and foremost",
+    "category": "filler",
+    "severity": "high",
+    "explanation": "Tautological essay opening; 'first' is sufficient.",
+    "alternatives": [
+      "first",
+      "primarily",
+      "above all"
+    ]
+  },
+  {
+    "id": "due-to-the-fact-that",
+    "phrase": "due to the fact that",
+    "category": "filler",
+    "severity": "high",
+    "explanation": "Wordy, weak substitute for 'because'.",
+    "alternatives": [
+      "because",
+      "since",
+      "as"
+    ]
+  },
+  {
+    "id": "in-order-to",
+    "phrase": "in order to",
+    "category": "filler",
+    "severity": "medium",
+    "explanation": "Usually reducible to just 'to'.",
+    "alternatives": [
+      "to",
+      "so that"
+    ]
+  },
+  {
+    "id": "in-the-event-that",
+    "phrase": "in the event that",
+    "category": "filler",
+    "severity": "high",
+    "explanation": "Clunky bureaucratic conditional for 'if'.",
+    "alternatives": [
+      "if",
+      "should"
+    ]
+  },
+  {
+    "id": "as-a-matter-of-fact",
+    "phrase": "as a matter of fact",
+    "category": "filler",
+    "severity": "medium",
+    "explanation": "Conversational throat-clearing.",
+    "alternatives": [
+      "actually",
+      "in fact",
+      "indeed"
+    ]
+  },
+  {
+    "id": "by-and-large",
+    "phrase": "by and large",
+    "category": "filler",
+    "severity": "medium",
+    "explanation": "Nautical sailing idiom meaning generally.",
+    "alternatives": [
+      "generally",
+      "mostly",
+      "on the whole"
+    ]
+  },
+  {
+    "id": "to-make-a-long-story-short",
+    "phrase": "to make a long story short",
+    "category": "filler",
+    "severity": "high",
+    "explanation": "Almost always uttered after the story was already long.",
+    "alternatives": [
+      "briefly",
+      "in short",
+      "[delete completely]"
+    ]
+  },
+  {
+    "id": "play-it-by-ear",
+    "phrase": "play it by ear",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Musical performance metaphor for improvising without a plan.",
+    "alternatives": [
+      "improvise",
+      "decide as we go",
+      "adapt to events"
+    ]
+  },
+  {
+    "id": "step-up-to-the-plate",
+    "phrase": "step up to the plate",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Baseball idiom for taking on responsibility.",
+    "alternatives": [
+      "take responsibility",
+      "act",
+      "take initiative"
+    ]
+  },
+  {
+    "id": "silver-bullet",
+    "phrase": "silver bullet",
+    "category": "dead_metaphor",
+    "severity": "high",
+    "explanation": "Folklore metaphor for a magical, simplistic solution to a complex dilemma.",
+    "alternatives": [
+      "panacea",
+      "magical solution",
+      "quick fix"
+    ]
+  },
+  {
+    "id": "skating-by",
+    "phrase": "skate by",
+    "category": "dead_metaphor",
+    "severity": "medium",
+    "explanation": "Passing through with minimal effort.",
+    "alternatives": [
+      "barely pass",
+      "scrape through"
+    ]
+  },
+  {
+    "id": "level-playing-field",
+    "phrase": "level playing field",
+    "category": "business_jargon",
+    "severity": "medium",
+    "explanation": "Sports metaphor for fair competition.",
+    "alternatives": [
+      "fair conditions",
+      "equal opportunity",
+      "fair competition"
+    ]
+  },
+  {
+    "id": "open-the-kimono",
+    "phrase": "open the kimono",
+    "category": "business_jargon",
+    "severity": "high",
+    "explanation": "Outdated, culturally uncomfortable corporate idiom for sharing internal data.",
+    "alternatives": [
+      "share data",
+      "reveal internal metrics",
+      "be transparent"
+    ]
+  },
+  {
+    "id": "rightsize",
+    "phrase": "rightsize",
+    "category": "business_jargon",
+    "severity": "high",
+    "explanation": "Cold corporate euphemism for firing employees.",
+    "alternatives": [
+      "downsize",
+      "lay off staff",
+      "reduce workforce"
+    ]
+  },
+  {
+    "id": "hit-the-ground-running",
+    "phrase": "hit the ground running",
+    "category": "business_jargon",
+    "severity": "high",
+    "explanation": "Military parachute trope used in job descriptions.",
+    "alternatives": [
+      "start immediately",
+      "begin without delay",
+      "work promptly"
+    ]
+  },
+  {
+    "id": "seamless-integration",
+    "phrase": "seamless integration",
+    "category": "business_jargon",
+    "severity": "medium",
+    "explanation": "Software marketing hyperbole that is rarely seamless.",
+    "alternatives": [
+      "direct integration",
+      "unobtrusive connection",
+      "smooth rollout"
+    ]
+  },
+  {
+    "id": "shiver-down-spine",
+    "phrase": "shiver down my spine",
+    "category": "fiction_trope",
+    "severity": "high",
+    "explanation": "Sensationalist visceral reaction trope.",
+    "alternatives": [
+      "felt sudden dread",
+      "trembled",
+      "chilled by the sound"
+    ]
+  },
+  {
+    "id": "blood-ran-cold-variant",
+    "phrase": "blood ran cold in my veins",
+    "category": "fiction_trope",
+    "severity": "high",
+    "explanation": "Gothic melodrama for extreme terror.",
+    "alternatives": [
+      "felt cold dread",
+      "paralyzed by fear"
+    ]
+  },
+  {
+    "id": "pierced-the-silence",
+    "phrase": "pierced the silence",
+    "category": "fiction_trope",
+    "severity": "medium",
+    "explanation": "Audio sensory trope for a sudden loud sound.",
+    "alternatives": [
+      "broke the stillness",
+      "cut through the quiet",
+      "rang out"
+    ]
+  },
+  {
+    "id": "shadows-lengthened",
+    "phrase": "shadows lengthened",
+    "category": "fiction_trope",
+    "severity": "medium",
+    "explanation": "Standard filler for the arrival of dusk.",
+    "alternatives": [
+      "dusk settled",
+      "as darkness fell",
+      "evening arrived"
+    ]
+  },
+  {
+    "id": "all-things-considered",
+    "phrase": "all things considered",
+    "category": "filler",
+    "severity": "medium",
+    "explanation": "Filler transition phrase in analytical writing.",
+    "alternatives": [
+      "overall",
+      "on balance",
+      "in summary"
+    ]
+  },
+  {
+    "id": "in-light-of-the-fact",
+    "phrase": "in light of the fact that",
+    "category": "filler",
+    "severity": "high",
+    "explanation": "Bloated multi-word substitute for 'since' or 'because'.",
+    "alternatives": [
+      "because",
+      "since",
+      "given that"
+    ]
+  }
+]

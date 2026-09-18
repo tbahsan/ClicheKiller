@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClicheKiller — Overused Phrase Detector &amp; Rewriter</title>
+    <meta
+      name="description"
+      content="Smart, 100% client-side editor that detects overused clichés, dead metaphors, and corporate jargon, offering 1-click punchy alternatives."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <div class="logo-group">
+          <h1>
+            <span>ClicheKiller</span>
+            <span class="logo-badge">v0.1.0</span>
+          </h1>
+          <p class="tagline">Overused Phrase Detector &amp; 1-Click Alternative Suggester</p>
+        </div>
+        <div class="header-actions">
+          <button id="theme-toggle" class="btn-secondary" aria-label="Toggle theme">
+            <span id="theme-icon">☀️</span> <span id="theme-text">Light Mode</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <!-- Category Filter Bar -->
+      <section class="card filter-bar" aria-label="Category Filters">
+        <div class="category-toggles">
+          <label class="toggle-chip cat-metaphor">
+            <input type="checkbox" id="cat-dead_metaphor" checked />
+            <span>Dead Metaphors</span>
+          </label>
+          <label class="toggle-chip cat-fiction">
+            <input type="checkbox" id="cat-fiction_trope" checked />
+            <span>Fiction Tropes</span>
+          </label>
+          <label class="toggle-chip cat-business">
+            <input type="checkbox" id="cat-business_jargon" checked />
+            <span>Corporate Jargon</span>
+          </label>
+          <label class="toggle-chip cat-filler">
+            <input type="checkbox" id="cat-filler" checked />
+            <span>Filler Phrases</span>
+          </label>
+        </div>
+        <div>
+          <select id="sample-picker" class="btn-secondary">
+            <option value="">Load Sample Text...</option>
+            <option value="corporate">Sample 1: Corporate Jargon Overload</option>
+            <option value="thriller">Sample 2: Fiction Tropes &amp; Melodrama</option>
+            <option value="idioms">Sample 3: Tired Idioms &amp; Metaphors</option>
+          </select>
+        </div>
+      </section>
+
+      <!-- Metrics Row -->
+      <section class="metrics-row" aria-label="Writing Metrics">
+        <div class="metric-card">
+          <span class="metric-label">Clichés Detected</span>
+          <span id="metric-count" class="metric-value alert">0</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-label">Phrase Coverage</span>
+          <span id="metric-coverage" class="metric-value">0.0%</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-label">Total Words</span>
+          <span id="metric-total-words" class="metric-value">0</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-label">Prose Health</span>
+          <span id="metric-health" class="metric-value clean">Crisp &amp; Clean</span>
+        </div>
+      </section>
+
+      <!-- Editor & Interactive Inspector Layout -->
+      <div class="editor-layout">
+        <!-- Main Editor -->
+        <section class="editor-wrapper" aria-label="Main Editor">
+          <div class="editor-container">
+            <div class="editor-backdrop" aria-hidden="true">
+              <div id="editor-highlights"></div>
+            </div>
+            <textarea
+              id="editor-input"
+              class="editor-input"
+              placeholder="Paste or type your draft here to detect overused clichés..."
+              spellcheck="false"
+              aria-label="Text editor for cliché detection"
+            ></textarea>
+          </div>
+          <div class="editor-footer">
+            <div id="status-hint" style="color: var(--text-muted)">
+              💡 Click any highlighted phrase to view punchy alternatives.
+            </div>
+            <div class="editor-actions">
+              <button id="copy-btn" class="btn-action" title="Copy clean text">📋 Copy</button>
+              <button id="download-txt-btn" class="btn-action" title="Download text file">💾 Download TXT</button>
+              <button id="clear-btn" class="btn-action" title="Clear editor">🗑️ Clear</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Sidebar / Interactive Suggestion Drawer -->
+        <aside class="sidebar-panel" aria-label="Interactive Suggestions">
+          <!-- Active Suggestion Card -->
+          <div id="suggestion-card" class="suggestion-card" style="display: none;">
+            <div class="suggestion-card-header">
+              <span id="card-phrase" class="card-title">at the end of the day</span>
+              <span id="card-badge" class="card-badge dead_metaphor">Dead Metaphor</span>
+            </div>
+            <p id="card-explanation" class="explanation-text">
+              Overused phrase that delays getting to the real conclusion or point.
+            </p>
+            <div style="font-size: 0.8rem; font-weight: 700; color: var(--text-muted); margin-top: 0.2rem">
+              1-CLICK REPLACEMENTS:
+            </div>
+            <div id="card-alternatives" class="alternatives-container">
+              <!-- Rendered alternative buttons -->
+            </div>
+            <div class="card-actions">
+              <button id="card-ignore-btn" class="btn-action" title="Ignore this occurrence">
+                Ignore
+              </button>
+            </div>
+          </div>
+
+          <!-- Detected Clichés List -->
+          <div class="card" style="padding: 1rem;">
+            <h3 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 0.65rem; display: flex; justify-content: space-between;">
+              <span>Detected Clichés</span>
+              <span id="sidebar-count" style="color: var(--brand)">0</span>
+            </h3>
+            <div id="matches-list" class="matches-list">
+              <p style="color: var(--text-muted); font-size: 0.85rem">No clichés detected. Your writing is remarkably original!</p>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <!-- Privacy & Storage Policy -->
+      <section class="card privacy-box">
+        <label>
+          <input type="checkbox" id="opt-in-storage" />
+          <span>Save draft locally in this browser (LocalStorage)</span>
+        </label>
+        <div>
+          <button id="clear-draft-btn" class="btn-secondary" style="font-size: 0.78rem">
+            Delete Saved Draft
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          ClicheKiller — Privacy-first, 100% client-side editor. No servers, no tracking, works completely offline.
+        </p>
+        <p class="footer-credit">
+          Created by <a href="https://github.com/tbahsan" target="_blank" rel="noopener noreferrer">Tasneem Bin Ahsan</a> ·
+          <a href="https://github.com/tbahsan/ClicheKiller" target="_blank" rel="noopener noreferrer">GitHub Repository</a> ·
+          MIT License
+        </p>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
